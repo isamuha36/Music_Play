@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- custom_track.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Latar Belakang Track -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="50dp" /> <!-- Radius sudut untuk membuat track bulat -->
+            <size android:height="5dp"
+                android:width="5dp"/>
+            <solid android:color="#FFDB00" /> <!-- Warna latar belakang track -->
+        </shape>
+    </item>
+    <!-- Track Progres -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="50dp" />
+                <size android:height="5dp"/>
+                <solid android:color="#FFDB00" /> <!-- Warna progres -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>
+
